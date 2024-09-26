@@ -19,7 +19,7 @@ The app aims to provide accurate, constraint-compliant, and high-quality workout
 
 2. **Seeding the SQLite Database** (In Progress):
 
-   - Insert the fetched data from `movements.json` into a local SQLite database (`exercise_data.db`).
+   - Insert the fetched data from `movements.json` into a local SQLite database (`data.db`).
    - Use transactions and optimized write operations to ensure fast, reliable seeding.
 
 3. **Data Enrichment** (Upcoming):
@@ -131,3 +131,115 @@ The app aims to provide accurate, constraint-compliant, and high-quality workout
    ```bash
    npx ts-node scripts/writeMovements.ts
    ```
+
+## Script Sequencing
+
+### **1. Initial Setup: Fetching Data from Airtable**
+
+This step fetches the workout data from Airtable and stores it locally in a JSON file (`movements.json`). This is the first point in the data lifecycle where the data enters your system.
+
+#### Script: `fetchMovements.ts`
+
+This script fetches all records from the Airtable tables, flattens them into a single array, and writes the result to `data/movements.json`.
+
+**Steps:**
+
+- Fetches records from all tables (e.g., Chest, Back, etc.).
+- Writes the flattened data to a JSON file.
+
+```bash
+node scripts/fetchMovements.ts
+```
+
+**How it works:**
+
+- Fetches workout data from Airtable.
+- Writes the output to `data/movements.json`.
+
+---
+
+### **2. Insert or Update Data in the SQLite Database**
+
+Once you’ve fetched the data from Airtable and stored it in `data/movements.json`, you need to insert this data into the SQLite database. This script ensures that **new records are inserted**, and existing records are **updated while preserving enriched fields** (if they exist).
+
+#### Script: `writeMovements.ts`
+
+This script reads from `data/movements.json`, inserts or updates records into the SQLite database, and ensures that **enriched fields** (like `primary_targets`, `fatigue_rating`, etc.) are preserved if they exist.
+
+**Steps:**
+
+- Reads the JSON file from `data/movements.json`.
+- Creates the SQLite table `movements` (if it doesn’t exist).
+- Inserts or updates each movement in the database, preserving the enriched fields.
+
+```bash
+node scripts/writeMovements.ts
+```
+
+**How it works:**
+
+- Reads from `data/movements.json`.
+- Inserts or updates the database with the core data from Airtable.
+- Ensures enriched fields like `primary_targets` and `complexity` are not overwritten if they exist.
+
+---
+
+### **3. Data Enrichment (WIP)**
+
+---
+
+### **4. Database Migration (Handling Schema Changes)**
+
+If at any point you need to update the database schema (e.g., adding new fields or modifying existing ones), you’ll need to run a migration script. The migration script will create a new table schema, migrate data from the old table, and then replace the old table with the new one.
+
+#### Script: `migrateSchemaUpdate.ts`
+
+This script handles schema updates by:
+
+- Creating a new table with the updated schema.
+- Migrating data from the old table, handling `NULL` values.
+- Replacing the old table with the new one.
+
+**Steps:**
+
+- Creates a new table with the updated schema (`movements_new`).
+- Copies data from the old table (`movements`).
+- Drops the old table and renames the new table to `movements`.
+
+```bash
+node scripts/migrateSchemaUpdate.ts
+```
+
+**How it works:**
+
+- Updates the schema of the database.
+- Copies existing data while setting default values for new fields.
+
+---
+
+### **5. Future Data Syncs from Airtable (Ongoing Updates)**
+
+In the future, when you update data in Airtable, you’ll need to re-sync this updated data to your database. However, you want to make sure that **existing enriched data isn’t overwritten** during the sync.
+
+#### Script: `fetchMovements.ts` (to fetch new Airtable data)
+
+You’ll first fetch the updated data from Airtable, as you did in the initial setup.
+
+```bash
+node scripts/fetchMovements.ts
+```
+
+#### Script: `writeMovements.ts` (to update the database)
+
+Then, you’ll run the `writeMovements.ts` script again to update the SQLite database with the new data. This script will ensure that core fields from Airtable are updated, but **enriched fields remain untouched**.
+
+```bash
+node scripts/writeMovements.ts
+```
+
+**How it works:**
+
+- Fetches updated data from Airtable and updates the core fields.
+- Enriched fields are preserved.
+
+---

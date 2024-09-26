@@ -6,40 +6,77 @@ const dbPath = path.join(__dirname, "..", "db", "data.db");
 
 const db = new Database(dbPath);
 
+// Define the type of an existing record (for enrichment fields)
+interface EnrichedRecord {
+  primary_targets: string;
+  secondary_targets: string;
+  equipment_needed: string;
+  fatigue_rating: string;
+  complexity: string;
+}
+
+// Step 1: Create or update the table schema with the new fields
 const createTable = () => {
   db.prepare(
     `
     CREATE TABLE IF NOT EXISTS movements (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
-      main_target TEXT NOT NULL,
-      name TEXT NOT NULL,
+      name TEXT DEFAULT 'unknown' NOT NULL,
+      target_group TEXT DEFAULT 'unknown' NOT NULL,
       variation TEXT,
-      demo_url TEXT NOT NULL
+      demo_url TEXT DEFAULT 'unknown' NOT NULL,
+      primary_targets TEXT DEFAULT '[]' NOT NULL,
+      secondary_targets TEXT DEFAULT '[]' NOT NULL,
+      equipment_needed TEXT DEFAULT 'unknown' NOT NULL,
+      fatigue_rating INTEGER DEFAULT 0 NOT NULL,
+      complexity INTEGER DEFAULT 0 NOT NULL
     )
   `
   ).run();
 };
 
+// Step 2: Insert or update a movement in the database, preserving enriched fields
 const insertMovement = (movement: any): boolean => {
   try {
-    const insert = db.prepare(`
-      INSERT OR REPLACE INTO movements (main_target, name, variation, demo_url)
-      VALUES (?, ?, ?, ?)
+    // Check the database to see if there is an existing row with the same movement name
+    // If so, extract the enriched data for preservation
+    const existingRecord = db
+      .prepare(
+        `SELECT primary_targets, secondary_targets, equipment_needed, fatigue_rating, complexity 
+       FROM movements WHERE name = ?`
+      )
+      .get(movement.name) as EnrichedRecord | undefined;
+
+    // This SQL query is prepared to insert a new record or replace an existing one in the movements table.
+    // It ensures that if a record with the same name already exists, it will be replaced with the new values, but it will keep the enriched fields if they are present.
+    const insertOrUpdate = db.prepare(`
+      INSERT OR REPLACE INTO movements (
+        name, target_group, variation, demo_url, 
+        primary_targets, secondary_targets, equipment_needed, fatigue_rating, complexity
+      )
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
     `);
 
-    insert.run(
-      movement.mainTarget,
+    insertOrUpdate.run(
       movement.name,
+      movement.targetGroup,
       movement.variation,
-      movement.demo
+      movement.demo,
+      existingRecord ? existingRecord.primary_targets : "[]", // Preserve enriched fields if they exist
+      existingRecord ? existingRecord.secondary_targets : "[]",
+      existingRecord ? existingRecord.equipment_needed : "unknown",
+      existingRecord ? existingRecord.fatigue_rating : 0, // Default to 0 for unknown
+      existingRecord ? existingRecord.complexity : 0 // Default to 0 for unknown
     );
+
     return true;
   } catch (error) {
-    console.error(`Error inserting ${movement.name}`, error);
+    console.error(`Error inserting or updating ${movement.name}:`, error);
     return false;
   }
 };
 
+// Step 3: Write all data to the database
 const writeAllData = async () => {
   const failedInserts: any[] = [];
   try {
@@ -65,6 +102,7 @@ const writeAllData = async () => {
   }
 };
 
+// Log any movements that failed to be inserted
 const logFailedMovements = async (failedMovements: any) => {
   if (failedMovements.length > 0) {
     const logFilePath = path.join(
@@ -88,6 +126,7 @@ const logFailedMovements = async (failedMovements: any) => {
   }
 };
 
+// Execute the write process
 writeAllData()
   .then((failedInserts) => {
     return logFailedMovements(failedInserts);
