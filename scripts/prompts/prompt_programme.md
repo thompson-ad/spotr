@@ -19,8 +19,13 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Incline DB Fly**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 1
+
+- **Incline Chest Press Machine**
+  - Primary Targets: ["Pecs"]
+  - Secondary Targets: ["Front-delts","Triceps"]
+  - Fatigue Rating: 2
 
 - **The Purvis Press**
   - Primary Targets: ["Pecs"]
@@ -44,27 +49,27 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Upright Cable Chest Fly**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Decline Cable Chest Fly**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Cuffed Upright Chest Press**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Incline Cable Chest Fly**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Standing Decline Cable Chest Fly**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Pin Loaded Cybex Eagle Converging Chest Press**
@@ -84,12 +89,12 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Single Arm Decline Press Around**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Flat DB Fly**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 1
 
 - **Flat BB Bench Press**
@@ -99,7 +104,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Upright Cable Chest Fly**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Incline Cable Chest Press**
@@ -109,7 +114,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Flat DB Press**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Cuffed Decline Chest Press**
@@ -129,12 +134,12 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **High Incline DB Press**
   - Primary Targets: ["Pecs","Front Deltoids"]
-  - Secondary Targets: ["Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Single Arm Incline Press Around**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Decline DB Press**
@@ -149,7 +154,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Incline Cable Chest Fly**
   - Primary Targets: ["Pecs"]
-  - Secondary Targets: ["Front-delts","Triceps","Serratus Anterior"]
+  - Secondary Targets: ["Front-delts","Triceps","Serratus"]
   - Fatigue Rating: 2
 
 - **Barbell Floor Press**
@@ -174,6 +179,16 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Secondary Targets: ["Biceps","Lats","Rear-delts"]
   - Fatigue Rating: 2
 
+- **Hammer Strength Chest Supported Low Row With Spinal Movement**
+  - Primary Targets: ["Lats","Rhomboids","Traps"]
+  - Secondary Targets: ["Biceps","Rear-deltoids"]
+  - Fatigue Rating: 3
+
+- **Nautilus Nitro Lat Pulldown**
+  - Primary Targets: ["Lats","Traps","Rhomboids"]
+  - Secondary Targets: ["Biceps","Rear-deltoids"]
+  - Fatigue Rating: 3
+
 - **Incline Lying DB Row with Flexion & Extension**
   - Primary Targets: ["Lats","Rhomboids","Traps"]
   - Secondary Targets: ["Biceps","Rear-deltoids"]
@@ -188,6 +203,11 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Primary Targets: ["Lats"]
   - Secondary Targets: ["Traps","Biceps"]
   - Fatigue Rating: 2
+
+- **Hammer Strength Chest Supported Low Row**
+  - Primary Targets: ["Lats","Rhomboids","Traps"]
+  - Secondary Targets: ["Biceps","Rear-deltoids"]
+  - Fatigue Rating: 3
 
 - **3-Point DB Row**
   - Primary Targets: ["Lats","Rhomboids","Traps"]
@@ -206,17 +226,27 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **One-Arm DB Row**
   - Primary Targets: ["Lats","Rhomboids","Traps"]
-  - Secondary Targets: ["Biceps","Rear-delts","Erector Spinae"]
+  - Secondary Targets: ["Biceps","Rear-delts","Lower Back"]
   - Fatigue Rating: 3
 
 - **BB Rack Pull**
-  - Primary Targets: ["Erector Spinae","Traps","Glutes"]
+  - Primary Targets: ["Lower Back","Traps","Glutes"]
   - Secondary Targets: ["Hamstrings","Quadriceps","Lats"]
   - Fatigue Rating: 3
 
 - **Seated Cable Row With Upper Back Focus**
   - Primary Targets: ["Upper Traps","Rhomboids","Teres Major"]
   - Secondary Targets: ["Lats","Rear Deltoids","Biceps"]
+  - Fatigue Rating: 2
+
+- **Chest Supported Machine Row Single Arm**
+  - Primary Targets: ["Lats","Rhomboids","Traps"]
+  - Secondary Targets: ["Biceps","Rear-deltoids"]
+  - Fatigue Rating: 2
+
+- **Chest Supported Machine Row With Spinal Flexion/Extension**
+  - Primary Targets: ["Lats","Rhomboids","Traps"]
+  - Secondary Targets: ["Biceps","Rear-deltoids"]
   - Fatigue Rating: 2
 
 - **Underhand Grip Lat Pulldown**
@@ -236,11 +266,21 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **BB Shrug**
   - Primary Targets: ["Traps"]
-  - Secondary Targets: ["Levator Scapulae","Rhomboids"]
+  - Secondary Targets: ["Upper Traps","Rhomboids"]
+  - Fatigue Rating: 3
+
+- **Nautilus Nitro Lat Pulldown Single Arm**
+  - Primary Targets: ["Lats","Traps"]
+  - Secondary Targets: ["Biceps","Forearms"]
   - Fatigue Rating: 3
 
 - **Single Arm Pullaround**
   - Primary Targets: ["Lats","Traps","Rhomboids"]
+  - Secondary Targets: ["Biceps","Rear-deltoids"]
+  - Fatigue Rating: 3
+
+- **Chest Supported Machine Row**
+  - Primary Targets: ["Lats","Rhomboids","Traps"]
   - Secondary Targets: ["Biceps","Rear-deltoids"]
   - Fatigue Rating: 3
 
@@ -269,9 +309,14 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Secondary Targets: ["Traps","Biceps"]
   - Fatigue Rating: 2
 
+- **Nautilus Nitro Lat Pulldown - Lat Focused**
+  - Primary Targets: ["Lats","Traps"]
+  - Secondary Targets: ["Biceps","Rhomboids","Rear-deltoids"]
+  - Fatigue Rating: 2
+
 - **Seated Cable Row With Spinal Movement**
   - Primary Targets: ["Lats","Rhomboids","Traps"]
-  - Secondary Targets: ["Biceps","Rear-deltoids","Erector Spinae"]
+  - Secondary Targets: ["Biceps","Rear-deltoids","Lower Back"]
   - Fatigue Rating: 2
 
 - **Single Arm Seated Cable Row with Lat Focus**
@@ -281,7 +326,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Chest Supported T-Bar Row With Spinal Movement**
   - Primary Targets: ["Lats","Rhomboids","Traps"]
-  - Secondary Targets: ["Biceps","Rear-deltoids","Spinal Erectors"]
+  - Secondary Targets: ["Biceps","Rear-deltoids","Lower Back"]
   - Fatigue Rating: 3
 
 - **Single Arm Seated Cable Row**
@@ -328,7 +373,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing DB Lat Raise (Single Arm)**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Vestibular system"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Vestibular system"]
   - Fatigue Rating: 2
 
 - **Seated Elbow Cuffed Crucifix Raise**
@@ -343,7 +388,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Cable D-Handle Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Standing BB Shoulder Press**
@@ -364,6 +409,16 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 - **Floor Lying Elbow Cuffed Crucifix Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
   - Secondary Targets: ["Traps","Upper back"]
+  - Fatigue Rating: 2
+
+- **Machine Lat Raise Single Arm Without Handles**
+  - Primary Targets: ["Side-delts"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
+  - Fatigue Rating: 2
+
+- **Seated Shoulder Press**
+  - Primary Targets: ["Front-delts","Side-delts","Triceps"]
+  - Secondary Targets: ["Upper back","Traps"]
   - Fatigue Rating: 2
 
 - **Standing Wrist Cuffed Rear Delt Fly**
@@ -388,7 +443,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Cable D-Handle Y Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Lying D-Handle Crucifix Raise**
@@ -413,17 +468,17 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Seated D-Handle Arm Raised Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Lying D-Handle Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 1
 
 - **Standing Cable Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Upper traps","Supraspinatus"]
+  - Secondary Targets: ["Upper traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Chest Supported DB Y-Raise**
@@ -436,6 +491,11 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Secondary Targets: ["Traps","Shoulder stabilizers"]
   - Fatigue Rating: 2
 
+- **Seated Shoulder Press Neutral Grip**
+  - Primary Targets: ["Front-delts","Side-delts","Triceps"]
+  - Secondary Targets: ["Upper Chest","Upper Traps"]
+  - Fatigue Rating: 3
+
 - **Seated Elbow Cuffed Rear Delt Fly**
   - Primary Targets: ["Rear-delts"]
   - Secondary Targets: ["Traps","Rhomboids"]
@@ -446,9 +506,14 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Secondary Targets: ["Traps","Side-delts"]
   - Fatigue Rating: 2
 
+- **Machine Lat Raise Without Handles**
+  - Primary Targets: ["Side-delts","Front-delts"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
+  - Fatigue Rating: 2
+
 - **Standing DB Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Seated D-Handle Cable Shoulder Press**
@@ -463,7 +528,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Lying Cable Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 1
 
 - **Standing Wrist Cuffed Crucifix Raise**
@@ -478,7 +543,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Seated Arm Raised Wrist Cuffed Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 2
 
 - **Lying D-Handle Cable Rear Delt Fly**
@@ -488,12 +553,12 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Single Arm Y Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Upper back","Supraspinatus"]
+  - Secondary Targets: ["Traps","Upper back","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Lying Wrist Cuffed Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Kneeling Elbow Cuffed Y Raise**
@@ -503,7 +568,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Single Arm Behind The Back Cable Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 2
 
 - **Floor Lying Elbow Cuffed Rear Delt Fly**
@@ -518,7 +583,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Floor Lying Cable Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 1
 
 - **Standing Single Arm Crucifix Raise**
@@ -543,7 +608,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Cuffed Cable & DB Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Kneeling Wrist Cuffed Y Raise**
@@ -553,12 +618,12 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Floor Lying Elbow Cuffed Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Core"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Core"]
   - Fatigue Rating: 2
 
 - **Seated DB Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 2
 
 - **Standing Cable Crucifix Raise**
@@ -571,9 +636,14 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Secondary Targets: ["Traps","Upper back"]
   - Fatigue Rating: 2
 
+- **Machine Lat Raise Single Arm**
+  - Primary Targets: ["Side-delts"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
+  - Fatigue Rating: 2
+
 - **Seated Arm Raised Cable Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 2
 
 - **Seated Rear Delt Fly**
@@ -583,12 +653,12 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Single Arm Shoulder Flexed Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Floor Lying Wrist Cuffed Lat Raise**
   - Primary Targets: ["Side-delts","Rear-delts"]
-  - Secondary Targets: ["Traps","Rotator cuff","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator cuff","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Standing Elbow Cuffed Rear Delt Fly**
@@ -601,19 +671,24 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Secondary Targets: ["Traps","Upper back"]
   - Fatigue Rating: 2
 
+- **Machine Lat Raise**
+  - Primary Targets: ["Side-delts","Front-delts"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
+  - Fatigue Rating: 2
+
 - **Standing Elbow Cuffed Cable Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Standing Single Arm Cable Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 2
 
 - **Standing Arm Raised Wrist Cuffed Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 2
 
 - **Lying Elbow Cuffed Rear Delt Fly**
@@ -633,7 +708,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Wrist Cuffed Cable Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 2
 
 - **Standing Cable Y Raise**
@@ -663,7 +738,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Cuffed Cable & DB Y Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 2
 
 - **Seated Cuffed Cable Shoulder Press**
@@ -673,12 +748,12 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Standing Arm Raised Elbow Cuffed Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus","Upper back"]
+  - Secondary Targets: ["Traps","Rotator Cuff","Upper back"]
   - Fatigue Rating: 2
 
 - **Lying Elbow Cuffed Lat Raise**
   - Primary Targets: ["Side-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Floor Lying Wrist Cuffed Crucifix Raise**
@@ -688,7 +763,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Side Lying DB Lat Raise**
   - Primary Targets: ["Side-delts","Front-delts"]
-  - Secondary Targets: ["Traps","Supraspinatus"]
+  - Secondary Targets: ["Traps","Rotator Cuff"]
   - Fatigue Rating: 2
 
 - **Seated D-Handle Crucifix Raise**
@@ -715,7 +790,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Barbell Wrist Flexion**
   - Primary Targets: ["Wrist Flexors"]
-  - Secondary Targets: ["Forearm Muscles"]
+  - Secondary Targets: ["Forearms"]
   - Fatigue Rating: 2
 
 - **DB - Incline Tricep Ext**
@@ -724,8 +799,8 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 1
 
 - **DB Standing Bicep Curl**
-  - Primary Targets: ["Biceps Brachii"]
-  - Secondary Targets: ["Brachialis","Brachioradialis"]
+  - Primary Targets: ["Biceps"]
+  - Secondary Targets: ["Biceps","Forearms"]
   - Fatigue Rating: 2
 
 - **Cable Overhead (Max Shoulder Flexion) Tricep Extension (Single Arm)**
@@ -749,8 +824,8 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 1
 
 - **Cable D-Handle Bicep Curl (Facing In)**
-  - Primary Targets: ["Biceps Brachii"]
-  - Secondary Targets: ["Brachialis","Forearm Muscles"]
+  - Primary Targets: ["Biceps"]
+  - Secondary Targets: ["Biceps","Forearms"]
   - Fatigue Rating: 2
 
 - **Cable - Cross Tricep Extension (Seated)**
@@ -758,8 +833,13 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Secondary Targets: ["Shoulders","Core"]
   - Fatigue Rating: 1
 
+- **Machine Preacher Curl - Single Arm**
+  - Primary Targets: ["Biceps Brachii"]
+  - Secondary Targets: ["Brachialis","Forearms"]
+  - Fatigue Rating: 2
+
 - **Cable D-Handle Gym Pin Style icep Curl (Cable Infront) - Option 2**
-  - Primary Targets: ["Biceps","Brachialis"]
+  - Primary Targets: ["Biceps","Biceps"]
   - Secondary Targets: ["Forearms","Shoulders"]
   - Fatigue Rating: 2
 
@@ -775,11 +855,11 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Cable Preacher Curl (Single Arm)**
   - Primary Targets: ["Biceps"]
-  - Secondary Targets: ["Forearm Muscles"]
+  - Secondary Targets: ["Forearms"]
   - Fatigue Rating: 2
 
 - **Barbell Reverse Curl**
-  - Primary Targets: ["Biceps","Brachialis","Brachioradialis"]
+  - Primary Targets: ["Biceps","Biceps","Forearms"]
   - Secondary Targets: ["Forearm muscles","Shoulders"]
   - Fatigue Rating: 2
 
@@ -794,8 +874,8 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 2
 
 - **DB Single Arm Preacher Curl**
-  - Primary Targets: ["Biceps Brachii"]
-  - Secondary Targets: ["Forearm Muscles","Shoulders"]
+  - Primary Targets: ["Biceps"]
+  - Secondary Targets: ["Forearms","Shoulders"]
   - Fatigue Rating: 2
 
 - **Cable Seated D-Handle Bicep Curl (Facing Away)**
@@ -810,11 +890,11 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Cable Cuffed Bicep Curl (Single arm)**
   - Primary Targets: ["Biceps"]
-  - Secondary Targets: ["Forearm Muscles","Shoulders"]
+  - Secondary Targets: ["Forearms","Shoulders"]
   - Fatigue Rating: 2
 
 - **DB Single Arm Biceps Curl**
-  - Primary Targets: ["Biceps Brachii"]
+  - Primary Targets: ["Biceps"]
   - Secondary Targets: ["Forearms","Shoulders"]
   - Fatigue Rating: 2
 
@@ -828,6 +908,11 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Secondary Targets: ["Shoulders","Core"]
   - Fatigue Rating: 1
 
+- **Machine Preacher Curl**
+  - Primary Targets: ["Biceps Brachii"]
+  - Secondary Targets: ["Brachialis","Forearms"]
+  - Fatigue Rating: 2
+
 - **Cable - Seated Overhead Cross Tricep Extension**
   - Primary Targets: ["Triceps"]
   - Secondary Targets: ["Shoulders","Core"]
@@ -840,7 +925,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Cable D-Handle Bicep Curl (Facing Away)**
   - Primary Targets: ["Biceps"]
-  - Secondary Targets: ["Forearm Muscles","Shoulders"]
+  - Secondary Targets: ["Forearms","Shoulders"]
   - Fatigue Rating: 2
 
 - **Cable Straight Bar Pronated Curl**
@@ -854,27 +939,27 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 1
 
 - **Cable Cuffed Neutral Biceps Curl (Single arm)**
-  - Primary Targets: ["Biceps Brachii"]
-  - Secondary Targets: ["Brachialis","Brachioradialis"]
+  - Primary Targets: ["Biceps"]
+  - Secondary Targets: ["Biceps","Forearms"]
   - Fatigue Rating: 2
 
 - **Cable Straight Bar Supinated Curl**
-  - Primary Targets: ["Biceps Brachii"]
-  - Secondary Targets: ["Brachialis","Forearm Flexors"]
+  - Primary Targets: ["Biceps"]
+  - Secondary Targets: ["Biceps","Forearms"]
   - Fatigue Rating: 2
 
 - **Cable D-Handle Bicep Curl - Single Arm (Facing Away)**
-  - Primary Targets: ["Biceps Brachii"]
-  - Secondary Targets: ["Forearm Muscles"]
+  - Primary Targets: ["Biceps"]
+  - Secondary Targets: ["Forearms"]
   - Fatigue Rating: 2
 
 - **Cable High Cable Curl (Single Arm)**
-  - Primary Targets: ["Biceps","Brachialis"]
+  - Primary Targets: ["Biceps","Biceps"]
   - Secondary Targets: ["Forearms","Shoulders"]
   - Fatigue Rating: 2
 
 - **DB Standing Hammer Curl**
-  - Primary Targets: ["Biceps Brachii","Brachialis","Brachioradialis"]
+  - Primary Targets: ["Biceps","Biceps","Forearms"]
   - Secondary Targets: ["Forearms","Shoulders"]
   - Fatigue Rating: 2
 
@@ -884,13 +969,13 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 2
 
 - **Cable Cuffed Pronated Biceps Curl (Single Arm)**
-  - Primary Targets: ["Biceps Brachii"]
-  - Secondary Targets: ["Brachialis","Forearm Muscles"]
+  - Primary Targets: ["Biceps"]
+  - Secondary Targets: ["Biceps","Forearms"]
   - Fatigue Rating: 2
 
 - **Barbell Wrist Extension**
   - Primary Targets: ["Wrist Extensors"]
-  - Secondary Targets: ["Forearm Muscles"]
+  - Secondary Targets: ["Forearms"]
   - Fatigue Rating: 2
 
 - **Long Rope Overhead Tricep Extension**
@@ -906,11 +991,11 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 - **Cable Long Rope Hammer Curl**
   - Primary Targets: ["Biceps"]
   - Secondary Targets: ["Forearms","Shoulders"]
-  - Fatigue Rating: 1
+  - Fatigue Rating: 2
 
 - **Cable D-Handle Gym Pin Style Bicep Curl (Cable Infront) - Option 1**
-  - Primary Targets: ["Biceps Brachii"]
-  - Secondary Targets: ["Brachialis","Forearm Muscles"]
+  - Primary Targets: ["Biceps"]
+  - Secondary Targets: ["Biceps","Forearms"]
   - Fatigue Rating: 2
 
 #### **Legs Movements:**
@@ -921,8 +1006,13 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 3
 
 - **Lateral Lunge**
-  - Primary Targets: ["Glutes","Quads","Adductors"]
+  - Primary Targets: ["Glutes","Quads","Inner Thighs"]
   - Secondary Targets: ["Hamstrings","Calves"]
+  - Fatigue Rating: 3
+
+- **Pin Loaded Leg Press Calf Raise**
+  - Primary Targets: ["Calves","Gastrocnemius","Soleus"]
+  - Secondary Targets: ["Quads","Hamstrings"]
   - Fatigue Rating: 3
 
 - **Bench Kneeling Cable Glute Kickback**
@@ -941,7 +1031,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 2
 
 - **Dumbbell RDL**
-  - Primary Targets: ["Hamstrings","Glutes","Erector Spinae"]
+  - Primary Targets: ["Hamstrings","Glutes","Lower Back"]
   - Secondary Targets: ["Calves","Core"]
   - Fatigue Rating: 3
 
@@ -951,8 +1041,8 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 3
 
 - **45 Degree Hip Extension (Rounded Back)**
-  - Primary Targets: ["Glutes","Hamstrings","Erector Spinae"]
-  - Secondary Targets: ["Core","Adductors"]
+  - Primary Targets: ["Glutes","Hamstrings","Lower Back"]
+  - Secondary Targets: ["Core","Inner Thighs"]
   - Fatigue Rating: 3
 
 - **Plate Loaded Leg Press**
@@ -966,7 +1056,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 3
 
 - **45 Degree Hip Extension + DBs**
-  - Primary Targets: ["Glutes","Hamstrings","Erector Spinae"]
+  - Primary Targets: ["Glutes","Hamstrings","Lower Back"]
   - Secondary Targets: ["Core","Quads"]
   - Fatigue Rating: 3
 
@@ -1006,7 +1096,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 3
 
 - **Lying Hip Abduction Machine**
-  - Primary Targets: ["Glutes","Hip Abductors"]
+  - Primary Targets: ["Glutes","Outer Thighs"]
   - Secondary Targets: ["Core","Quadriceps"]
   - Fatigue Rating: 2
 
@@ -1016,13 +1106,13 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 2
 
 - **Bench Kneeling Glute Med Kickback**
-  - Primary Targets: ["Glutes","Hip Abductors"]
+  - Primary Targets: ["Glutes","Outer Thighs"]
   - Secondary Targets: ["Hamstrings","Core"]
   - Fatigue Rating: 2
 
 - **Hip Abduction Machine**
   - Primary Targets: ["Glutes"]
-  - Secondary Targets: ["Hip Flexors","Adductors"]
+  - Secondary Targets: ["Hip Flexors","Inner Thighs"]
   - Fatigue Rating: 1
 
 - **Barbell Split Squat (Short Stance)**
@@ -1031,8 +1121,13 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 3
 
 - **Bench Lying Cable Hip Flexion**
-  - Primary Targets: ["Iliopsoas","Rectus Femoris","Sartorius"]
+  - Primary Targets: ["Hip Flexors","Quads","Sartorius"]
   - Secondary Targets: ["Quadriceps","Abdominals"]
+  - Fatigue Rating: 2
+
+- **45 Degree Calf Raise**
+  - Primary Targets: ["Gastrocnemius","Soleus"]
+  - Secondary Targets: ["Tibialis Anterior"]
   - Fatigue Rating: 2
 
 - **45 Degree Hip Extension + Plate**
@@ -1066,24 +1161,29 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 3
 
 - **Floor Lying Cable Hip Flexion**
-  - Primary Targets: ["Hip Flexors","Rectus Femoris"]
+  - Primary Targets: ["Hip Flexors","Quads"]
   - Secondary Targets: ["Abs","Obliques"]
   - Fatigue Rating: 2
 
 - **Lying Hip Adduction Machine**
-  - Primary Targets: ["Adductors","Glutes"]
+  - Primary Targets: ["Inner Thighs","Glutes"]
   - Secondary Targets: ["Hamstrings"]
   - Fatigue Rating: 2
 
 - **60 Degree Hip Extension**
   - Primary Targets: ["Glutes","Hamstrings","Lower Back"]
-  - Secondary Targets: ["Core","Adductors"]
+  - Secondary Targets: ["Core","Inner Thighs"]
   - Fatigue Rating: 3
 
 - **Hip Adduction Machine**
-  - Primary Targets: ["Adductors"]
+  - Primary Targets: ["Inner Thighs"]
   - Secondary Targets: ["Glutes","Quads","Hamstrings"]
   - Fatigue Rating: 1
+
+- **Seated Calf Raise**
+  - Primary Targets: ["Gastrocnemius","Soleus"]
+  - Secondary Targets: ["Tibialis Anterior"]
+  - Fatigue Rating: 2
 
 - **Barbell B Stance Hip Thrust**
   - Primary Targets: ["Glutes"]
@@ -1096,7 +1196,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 3
 
 - **DB B Stance RDL (Opposite Hand)**
-  - Primary Targets: ["Hamstrings","Glutes","Erector Spinae"]
+  - Primary Targets: ["Hamstrings","Glutes","Lower Back"]
   - Secondary Targets: ["Core","Calves"]
   - Fatigue Rating: 3
 
@@ -1106,7 +1206,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 4
 
 - **Standing Glute Med Kickback**
-  - Primary Targets: ["Glutes","Hip Abductors"]
+  - Primary Targets: ["Glutes","Outer Thighs"]
   - Secondary Targets: ["Core","Hamstrings"]
   - Fatigue Rating: 2
 
@@ -1127,7 +1227,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **45 Degree Hip Extension**
   - Primary Targets: ["Glutes","Hamstrings","Lower Back"]
-  - Secondary Targets: ["Core","Adductors"]
+  - Secondary Targets: ["Core","Inner Thighs"]
   - Fatigue Rating: 3
 
 - **Forward Lunge (Onto a Step)**
@@ -1146,9 +1246,19 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 3
 
 - **45 Degree Hip Extension (Single Leg)**
-  - Primary Targets: ["Glutes","Hamstrings","Erector Spinae"]
+  - Primary Targets: ["Glutes","Hamstrings","Lower Back"]
   - Secondary Targets: ["Core","Hip Flexors"]
   - Fatigue Rating: 3
+
+- **Nautilus Nitro Seated Calf Raise**
+  - Primary Targets: ["Calves","Gastrocnemius","Soleus"]
+  - Secondary Targets: ["Quads","Hamstrings"]
+  - Fatigue Rating: 3
+
+- **Machine Dorsi-Flexion**
+  - Primary Targets: ["Tibialis Anterior","Calves"]
+  - Secondary Targets: ["Peroneals"]
+  - Fatigue Rating: 2
 
 - **Forward Lunge**
   - Primary Targets: ["Glutes","Quads","Hamstrings"]
@@ -1218,7 +1328,7 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 - **Seated Hamstring Curl With Seatbelt**
   - Primary Targets: ["Hamstrings"]
   - Secondary Targets: ["Glutes","Calves"]
-  - Fatigue Rating: 3
+  - Fatigue Rating: 1
 
 - **Barbell Split Squat (Long Stance)**
   - Primary Targets: ["Glutes","Quads","Hamstrings"]
@@ -1237,11 +1347,6 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 #### **Core Movements:**
 
-- **Reverse Ab Crunch With Leg Lower (With Ab Mat)**
-  - Primary Targets: ["Rectus Abdominis","Transverse Abdominis"]
-  - Secondary Targets: ["Hip Flexors","Obliques"]
-  - Fatigue Rating: 3
-
 - **Incline Reverse Ab Crunch (With Leg Lower)**
   - Primary Targets: ["Abs","Hip Flexors"]
   - Secondary Targets: ["Obliques","Lower Back"]
@@ -1249,12 +1354,12 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
 
 - **Incline Sit Up**
   - Primary Targets: ["Abs"]
-  - Secondary Targets: ["Hip Flexors","Obliques","Rectus Femoris"]
+  - Secondary Targets: ["Hip Flexors","Obliques","Quads"]
   - Fatigue Rating: 2
 
 - **Standing Cable Side Bend (Single Arm)**
-  - Primary Targets: ["Obliques","Rectus Abdominis"]
-  - Secondary Targets: ["Erector Spinae","Shoulders"]
+  - Primary Targets: ["Obliques","Abs"]
+  - Secondary Targets: ["Lower Back","Shoulders"]
   - Fatigue Rating: 2
 
 - **Reverse Ab Crunch (With Ab Mat)**
@@ -1268,72 +1373,72 @@ Your primary role is an experienced and knowledgeable personal trainer with expe
   - Fatigue Rating: 2
 
 - **Cable Rope Crunch**
-  - Primary Targets: ["Rectus Abdominis","Obliques"]
-  - Secondary Targets: ["Transverse Abdominis","Hip Flexors"]
+  - Primary Targets: ["Abs","Obliques"]
+  - Secondary Targets: ["Deep Abs","Hip Flexors"]
   - Fatigue Rating: 3
 
 - **Seated Cable Torso Rotation**
-  - Primary Targets: ["Obliques","Rectus Abdominis"]
-  - Secondary Targets: ["Erector Spinae","Transverse Abdominis"]
+  - Primary Targets: ["Obliques","Abs"]
+  - Secondary Targets: ["Lower Back","Deep Abs"]
   - Fatigue Rating: 2
 
 - **Ab Crunch (With Core Pad)**
-  - Primary Targets: ["Rectus Abdominis","Transverse Abdominis"]
+  - Primary Targets: ["Abs","Deep Abs"]
   - Secondary Targets: ["Obliques","Hip Flexors"]
   - Fatigue Rating: 2
 
 - **45 Degree Spinal Extension (With Pad Extension)**
-  - Primary Targets: ["Erector Spinae","Quadratus Lumborum","Glutes"]
-  - Secondary Targets: ["Hamstrings","Core Stabilizers"]
+  - Primary Targets: ["Lower Back","Lower Back","Glutes"]
+  - Secondary Targets: ["Hamstrings","Core"]
   - Fatigue Rating: 2
 
 - **60 Degree Spinal Extension**
-  - Primary Targets: ["Erector Spinae","Multifidus","Glutes"]
+  - Primary Targets: ["Lower Back","Lower Back","Glutes"]
   - Secondary Targets: ["Hamstrings","Obliques"]
   - Fatigue Rating: 2
 
 - **Sit Up (No Core Pad)**
-  - Primary Targets: ["Rectus Abdominis","Obliques"]
-  - Secondary Targets: ["Hip Flexors","Transverse Abdominis"]
+  - Primary Targets: ["Abs","Obliques"]
+  - Secondary Targets: ["Hip Flexors","Deep Abs"]
   - Fatigue Rating: 2
 
 - **Standing Cable Spinal Rotation**
-  - Primary Targets: ["Obliques","Rectus Abdominis","Erector Spinae"]
+  - Primary Targets: ["Obliques","Abs","Lower Back"]
   - Secondary Targets: ["Shoulders","Hip Flexors"]
   - Fatigue Rating: 2
 
 - **Standing Cable & DB Side Bend**
-  - Primary Targets: ["Obliques","Erector Spinae","Rectus Abdominis"]
-  - Secondary Targets: ["Latissimus Dorsi","Quadratus Lumborum"]
+  - Primary Targets: ["Obliques","Lower Back","Abs"]
+  - Secondary Targets: ["Lats","Lower Back"]
   - Fatigue Rating: 2
 
 - **45 Degree Spinal Extension**
-  - Primary Targets: ["Erector Spinae","Glutes"]
-  - Secondary Targets: ["Hamstrings","Core Stabilizers"]
+  - Primary Targets: ["Lower Back","Glutes"]
+  - Secondary Targets: ["Hamstrings","Core"]
   - Fatigue Rating: 2
 
 - **Ab Crunch (No Core Pad)**
-  - Primary Targets: ["Rectus Abdominis","Transverse Abdominis"]
+  - Primary Targets: ["Abs","Deep Abs"]
   - Secondary Targets: ["Obliques","Hip Flexors"]
   - Fatigue Rating: 2
 
 - **Lying 60 Degree Cable Ab Crunch**
-  - Primary Targets: ["Rectus Abdominis","Obliques"]
-  - Secondary Targets: ["Transverse Abdominis","Hip Flexors"]
+  - Primary Targets: ["Abs","Obliques"]
+  - Secondary Targets: ["Deep Abs","Hip Flexors"]
   - Fatigue Rating: 3
 
 - **Sit Up (With Core Pad)**
-  - Primary Targets: ["Rectus Abdominis","Obliques"]
-  - Secondary Targets: ["Hip Flexors","Transverse Abdominis"]
+  - Primary Targets: ["Abs","Obliques"]
+  - Secondary Targets: ["Hip Flexors","Deep Abs"]
   - Fatigue Rating: 2
 
 - **Reverse Crunch (No Ab Mat)**
-  - Primary Targets: ["Rectus Abdominis","Transverse Abdominis"]
+  - Primary Targets: ["Abs","Deep Abs"]
   - Secondary Targets: ["Hip Flexors","Obliques"]
   - Fatigue Rating: 2
 
 - **Reverse Ab Crunch With Leg Lower (No Ab Mat)**
-  - Primary Targets: ["Rectus Abdominis","Transverse Abdominis"]
+  - Primary Targets: ["Abs","Deep Abs"]
   - Secondary Targets: ["Hip Flexors","Obliques"]
   - Fatigue Rating: 3
 
