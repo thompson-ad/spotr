@@ -1,0 +1,40 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - 3000:3000
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://localhost:3000/health').then(r => r.ok ? process.exit(0) : process.exit(1))",
+        ]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 30s
+    volumes:
+      - sqlite_data:/usr/src/app/db
+      - app_data:/usr/src/app/data
+    develop:
+      watch:
+        - path: ./src
+          target: /usr/src/app/src
+          action: sync
+        - path: ./package.json
+          target: /usr/src/app/package.json
+          action: rebuild
+        - path: ./package-lock.json
+          target: /usr/src/app/package-lock.json
+          action: rebuild
+        - path: ./tsconfig.json
+          target: /usr/src/app/tsconfig.json
+          action: sync+restart
+
+volumes:
+  sqlite_data:
+  app_data:

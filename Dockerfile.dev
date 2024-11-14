@@ -1,0 +1,19 @@
+ARG NODE_VERSION=22.11.0
+FROM node:${NODE_VERSION}-alpine
+
+WORKDIR /usr/src/app
+
+COPY --chown=node:node package*.json ./
+
+RUN npm install
+
+# Create necessary directories for first-time setup
+# These are git-ignored, so we ensure they exist for new developers
+RUN mkdir -p data db && chown -R node:node data db
+
+# Copy source code with correct ownership (will be overwritten by watch)
+COPY --chown=node:node . .
+
+USER node
+
+CMD ["npm", "run", "dev"]

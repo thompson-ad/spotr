@@ -159,6 +159,27 @@ app.get(
   }
 );
 
+app.get("/health", async (_req: Request, res: Response) => {
+  try {
+    // Check database connection by running a simple query
+    await runGet(db, "SELECT 1");
+
+    res.json({
+      status: "healthy",
+      timestamp: new Date().toISOString(),
+      database: "connected",
+    });
+  } catch (error) {
+    console.error("Health check failed:", error);
+    res.status(503).json({
+      status: "unhealthy",
+      timestamp: new Date().toISOString(),
+      database: "disconnected",
+      error: "Database connection failed",
+    });
+  }
+});
+
 const server = app.listen(port, async () => {
   try {
     db = await openDatabase(dbPath);
